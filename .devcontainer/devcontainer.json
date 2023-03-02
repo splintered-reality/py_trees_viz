@@ -12,6 +12,7 @@
         "context": ".."
     },
     "containerEnv": {
+        "DISPLAY": "${localEnv:DISPLAY}",
         "POETRY_HTTP_BASIC_PYPI_USERNAME": "${localEnv:POETRY_HTTP_BASIC_PYPI_USERNAME}",
         "POETRY_HTTP_BASIC_PYPI_PASSWORD": "${localEnv:POETRY_HTTP_BASIC_PYPI_PASSWORD}",
         "QT_DEBUG_PLUGINS": "1"
@@ -42,8 +43,6 @@
         "--runtime=nvidia",
         "--gpus",
         "all",
-        "--env",
-        "DISPLAY",
         "--network",
         "host"
     ]
