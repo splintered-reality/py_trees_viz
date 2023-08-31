@@ -25,18 +25,34 @@ Although designed for py_trees, the js libs (in particular, the interfaces) are 
 
 ## Preview
 
+With VSCode DevContainers and on a PC with an NVIDIA GPU:
+
+* Install [VSCode](https://code.visualstudio.com/docs/setup/linux#_debian-and-ubuntu-based-distributions) 
+* Install the [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#docker)
+* Clone and launch the demo:
+
 ```
 $ git clone https://github.com/splintered-reality/py_trees_js
 $ code .
+$ cd py_trees_js
+
 # Reopen the project in the devcontainer
+$ (use CTRL-SHIFT-P if you miss VSCode's helper dialog)
+
+# Setup and launch
 $ poetry install
-$ poetry shell
-$ py-trees-demo-viewer
+$ poetry run py-trees-demo-viewer
 ```
 <p align="center">
   <img src="images/splash.png" width="80%"/>
   <img src="images/screenshot.png" width="100%"/>
 </p>
+
+If you do not have a PC that meets those requirements, some alternative options:
+
+* Install [Poetry](https://python-poetry.org/) and PyQt on your system or in a venv. Clone and launch.
+* If you're just interested in seeing the demo viewer, `pip install --user py_trees_js` and launch the viewer
+* Create your own devcontainer with something like the [desktop-lite](https://github.com/devcontainers/features/tree/main/src/desktop-lite) feature. If this works, send me a PR!
 
 ## Example - Simple Web App
 
