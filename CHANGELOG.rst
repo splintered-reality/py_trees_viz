@@ -2,9 +2,13 @@
 Changelog
 =========
 
-Forthcoming
------------
-* ...
+0.6.5 (2025-01-11)
+------------------
+* [formatter] reformat auto-generated resources.py
+* [linter] 2 lines between methods
+* [readme] fix preview instructions, elucidate non-nvidia alternatives
+* [vscode] devcontainer DISPLAY fix
+* Contributors: Daniel Stonier
 
 0.6.4 (2022-02-24)
 ------------------
