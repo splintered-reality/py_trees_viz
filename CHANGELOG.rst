@@ -2,8 +2,8 @@
 Changelog
 =========
 
-Forthcoming
------------
+0.6.5 (2025-01-11)
+------------------
 * [formatter] reformat auto-generated resources.py
 * [linter] 2 lines between methods
 * [readme] fix preview instructions, elucidate non-nvidia alternatives
