@@ -262,7 +262,7 @@ joint.shapes.trees.EventMarker = joint.shapes.standard.Rectangle.define(
 
 var py_trees = (function() {
 
-    var _version = '0.6.5'
+    var _version = '0.6.6'
 
     /**
      * Introduce the user to the library and print relevant info about it's discovered
