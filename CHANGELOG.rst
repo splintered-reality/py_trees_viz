@@ -2,8 +2,8 @@
 Changelog
 =========
 
-Forthcoming
------------
+0.6.6 (2025-01-13)
+------------------
 * [infra] Add dummy test to make buildfarm happy
 * [infra] Fix repo URL in package.xml
 * Contributors: Sebastian Castro
